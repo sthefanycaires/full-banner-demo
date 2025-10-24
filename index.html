@@ -6,6 +6,10 @@
 <title>Teste Full Banner</title>
 
 <style>
+  html, body {
+    overscroll-behavior: none;
+  }
+
   body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -43,6 +47,7 @@
     aspect-ratio: 9 / 19.5;
     height: auto;
     max-height: calc(100vh - 34px);
+    max-height: calc(100dvh - 34px);
     overflow: hidden;
     display: none;
     position: relative;
